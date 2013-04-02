@@ -1,0 +1,136 @@
+body{
+font-size: 12pt;
+}
+
+
+
+.ui-widget, .ui-widget-content, span#notebook_name{
+font-family: 'Lucida Grande';
+font-size: 10pt;
+padding: 0;
+}
+
+select#cell_type, select#ctb_select {
+font-size: 9pt;
+}
+
+
+div.text_cell, div.code_cell {
+width: 800px;
+border: 0px;
+padding: 0px;
+margin: 0px;
+margin-left: 2px;
+}
+
+div.code_cell {
+padding-top: 5px;
+}
+
+div.cell.selected {
+margin-left: 0px;
+border-left: 2px dotted #ABABAB;
+border-top: 0px;
+border-right: 0px;
+border-bottom: 0px;
+border-radius: 0px;
+}
+
+/* Set the size of the headers */
+
+div.text_cell_render h1 {
+font-family: 'Optima';
+font-size: 18pt;
+margin-top: 20px;
+margin-bottom: 0px;
+border-bottom: 1px solid;
+}
+
+div.text_cell_render h2 {
+font-family: 'Baskerville';
+font-style: italic;
+font-weight: 500;
+font-size: 18pt;
+margin-top: 16px;
+margin-bottom: 0px;
+}
+
+div.text_cell_render h3 {
+font-family: 'Optima';
+font-size: 16pt;
+margin-top: 12px;
+margin-bottom: 0px;
+}
+
+div.text_cell_render h4 {
+font-family: 'Baskerville';
+font-style: italic;
+font-weight: 500;
+font-size: 16pt;
+margin-top: 10px;
+margin-bottom: 0px;
+}
+
+div.text_cell_render h5 {
+font-family: 'Optima';
+font-size: 14pt;
+margin-top: 8px;
+margin-bottom: 0px;
+}
+
+div.text_cell_render h6 {
+font-family: 'Baskerville';
+font-style: italic;
+font-weight: 500;
+font-size: 14pt;
+margin-top: 6px;
+margin-bottom: 0px;
+}
+
+div.text_cell_render p {
+margin-top: 4px;
+maring-bottom: 0px;
+}
+div.text_cell_render {
+/*font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;*/
+/*font-family: "Hoefler Text", serif;*/ /* Make non-code text serif. */
+font-family: Baskerville;
+font-size: 16px;
+/*line-height: 145%; /* added for some line spacing of text. */*/
+width: 105ex; /* instead of 'inherit' for shorter lines */
+padding: 0;
+}
+
+div.output_wrapper {
+margin-top: 0px;
+}
+
+.CodeMirror {
+font-family: "Menlo", monospace;
+font-size: 9pt;
+ }
+
+div.prompt {
+font-family: "Menlo", monospace;
+font-size: 9pt;
+}
+
+div.output_area pre {
+font-family: "Menlo", monospace;
+font-size: 9pt;
+}
+
+div.MathJax_Display {
+text-align:center;}
+/*
+// Solarised dark colours for Code Mirror
+.cm-s-ipython { background-color: #002b36; color: #839496; }
+.cm-s-ipython span.cm-keyword {color: #859900; font-weight: bold;}
+.cm-s-ipython span.cm-number {color: #b58900;}
+.cm-s-ipython span.cm-operator {color: #268bd2; font-weight: bold;}
+.cm-s-ipython span.cm-meta {color: #cb4b16;}
+.cm-s-ipython span.cm-comment {color: #586e75; font-style: italic;}
+.cm-s-ipython span.cm-string {color: #2aa198;}
+.cm-s-ipython span.cm-error {color: #dc322f;}
+.cm-s-ipython span.cm-builtin {color: #cb4b16;}
+.cm-s-ipython span.cm-variable {color: #839496;}*/
