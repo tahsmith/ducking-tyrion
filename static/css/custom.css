@@ -39,7 +39,7 @@ border-radius: 0px;
 
 div.cell.running {
     margin-left: 0px;
-    border-left: 2px dotted #FFADAD;
+    border-left: 2px dotted #FFA0A0;
 }
 
 div.cell.selected.running {
