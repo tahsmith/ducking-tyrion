@@ -1,3 +1,4 @@
+
 body{
 font-size: 12pt;
 }
@@ -34,6 +35,15 @@ border-top: 0px;
 border-right: 0px;
 border-bottom: 0px;
 border-radius: 0px;
+}
+
+div.cell.running {
+    margin-left: 0px;
+    border-left: 2px dotted #FFADAD;
+}
+
+div.cell.selected.running {
+    border-left: 2px dotted #FF0000;
 }
 
 /* Set the size of the headers */
