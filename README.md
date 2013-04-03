@@ -16,7 +16,7 @@ Features
 Caveats
 -------
 
-* I haven't testes this much
+* I haven't tested this much
 * Not an expert on CSS, probably some bad practices used.
 * Uses fonts that look good on Mac. May not be available elsewhere.
 * Still plenty of rough edges.
